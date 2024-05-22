@@ -18,7 +18,7 @@ const Hero = () => {
     </div>
     <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center items-center">
-            <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-90">Online business services from {''}
+            <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-90">Online business services from&nbsp;
             <Link href="https://projects-mastery.vercel.app" target="_blank">
             <span className="text-purple">Projects Mastery</span>
             </Link> 
@@ -27,7 +27,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transform Your Business with Cutting-Edge Web Solutions"
              />
-             <p className="text-center my-4 text-sm md:text-lg lg:text-lg">At Projects Mastery Connect, we specialize in delivering top-notch web solutions. Whether you're looking to revamp your existing site or build a new one from scratch, we provide the tools and expertise to elevate your online presence.</p>
+             <p className="text-center my-4 text-sm md:text-lg lg:text-lg">At Projects Mastery Connect, we specialize in delivering top-notch web solutions. Whether you&apos;re looking to revamp your existing site or build a new one from scratch, we provide the tools and expertise to elevate your online presence.</p>
              <Link href="#about">
               <MagicButton
                 title="Get your website Now!"
