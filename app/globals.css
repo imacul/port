@@ -87,3 +87,24 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+.custom-shape-divider-bottom-1716462225 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1716462225 svg {
+  position: relative;
+  display: block;
+  width: calc(128% + 1.3px);
+  height: 143px;
+}
+
+.custom-shape-divider-bottom-1716462225 .shape-fill {
+  fill: #0C0227;
+}
