@@ -1,18 +1,14 @@
+import {AboutHero} from '@/components/AboutHero';
 import Grid from '@/components/Grid';
 import RecentProjects from '@/components/RecentProjects';
-import { LampDemo } from '@/components/ui/Lamp';
 import React from 'react'
 
 const page = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
-       <section className="pb-20 pt-36">
-         <LampDemo />
+    <main>
+        <AboutHero />
         <Grid />
         <RecentProjects />
-       </section>
-      </div>
     </main>
   )
 }

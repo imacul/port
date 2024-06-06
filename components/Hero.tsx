@@ -27,8 +27,8 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transform Your Business with Cutting-Edge Web Solutions"
              />
-             <p className="text-center my-4 text-sm md:text-lg lg:text-lg">At Projects Mastery Connect, we specialize in delivering top-notch web solutions. Whether you&apos;re looking to revamp your existing site or build a new one from scratch, we provide the tools and expertise to elevate your online presence.</p>
-             <Link href="#about">
+             <p className="text-center text-white-200 my-4 text-sm">At Projects Mastery Connect, we specialize in delivering top-notch web solutions. Whether you&apos;re looking to revamp your existing site or build a new one from scratch, we provide the tools and expertise to elevate your online presence.</p>
+             <Link href="/">
               <MagicButton
                 title="Get your website Now!"
                 icon={<FaLocationArrow />}

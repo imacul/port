@@ -9,7 +9,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 w-full">
       <h1 className="heading">
         See&nbsp;
         <span className="text-purple">Our Work</span> 
