@@ -1,3 +1,4 @@
+
 export const navItems = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
@@ -11,7 +12,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.png",
     spareImg: "",
   },
   {
@@ -211,5 +212,86 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+  },
+];
+
+
+export const packages = [
+  {
+    title: 'Launch Your Online Presence - Fast & Affordable', // Emphasize speed and affordability
+    description:
+      'Get started online quickly and easily with a professional 3-5 page website. This package includes basic SEO optimization, mobile-responsive design, 2-3 revisions, and social media integration to connect with your audience.',
+    price: '$1,500 - $2,000', // Reduced price range
+    benefits: [
+       '3-5 page website (perfect for starting businesses)', // Highlight appropriate website size
+       'Basic SEO optimization (improve search visibility)',
+       'Mobile-responsive design (great for all devices)',
+       '2-3 revisions (ensure your satisfaction)',
+       'Fast turnaround time (get online in 2-3 weeks)',
+       'Social Media Integration (connect with your customers)',
+    ],
+    cta: 'Build My Website Now!', // Create a sense of urgency
+  },  
+  {
+    title: 'Stand Out Online - Advanced Website & Marketing',
+    description:
+      'Attract more customers and elevate your brand with a custom-designed 8-12 page website. This package includes advanced SEO optimization for better search ranking, eye-catching custom graphics & animations, and priority support to ensure your success.',
+    price: '$5,000 - $7,000',  // Price remains the same
+    benefits: [
+      '8-12 page custom website (tailored to your needs)',  // Emphasize customization
+      'Advanced SEO optimization (dominate search results)',   // Stronger benefit description
+      'Custom graphics & animations (create a lasting impression)', // Highlight visual appeal
+      '5-7 revisions (ensure your vision comes to life)',  // Focus on client satisfaction
+      'Priority support (dedicated team for fast assistance)',  // Explain priority support benefit
+      'Social Media Integration (connect with your audience)',
+    ],
+    cta: 'Attract More Customers', // Extended CTA with clear benefit
+  },
+  
+  {
+    title: 'Dominate Your Market - Enterprise-Level Website',
+    description:
+      'Take complete control of your online presence with a comprehensive website solution. This package includes a feature-rich 13+ page website, advanced SEO optimization for maximum visibility, custom database integration for complex data management, and a dedicated project manager for a seamless experience.',
+    price: '$10,000 - $15,000',  // Price remains the same
+    benefits: [
+      '13+ page website (extensive customization & features)',  // Highlight extensive capabilities
+      'Comprehensive SEO optimization (dominate search results & attract qualified leads)',   // Strengthen benefit descriptions
+      'Custom database integration (manage complex data efficiently)', // Explain database integration benefit
+      '10+ revisions (ensure your website is perfect)',  // Focus on client satisfaction
+      'Dedicated project manager (your personal point of contact)',  // Emphasize dedicated support
+      'Social Media Integration (connect and engage with your audience)',
+    ],
+    cta: 'Build a Powerful Website', // Extended CTA with clear benefit
+  },  
+];
+
+export const Services = [
+   // Content Services
+   {
+    title: 'Craft Compelling Content',
+    description:
+      'Get high-quality content creation services for your website, including blog posts, product descriptions, and more.',
+    price: '$500 - $2,000',
+    benefits: [
+      'High-quality content creation',
+      'Engaging writing style',
+      'Optimized for SEO',
+      'Estimated timeframe (1-3 weeks)',
+    ],
+    cta: 'Write My Content',
+  },
+  // Security Services
+  {
+    title: 'Stay Up-to-Date and Secure',
+    description:
+      'Keep your website updated and secure with our ongoing maintenance and updates package.',
+    price: '$500 - $2,000 per month',
+    benefits: [
+      'Regular website updates',
+      'Security monitoring and fixes',
+      'Performance optimization',
+      'Ongoing support',
+    ],
+    cta: 'Maintain My Website',
   },
 ];
