@@ -19,9 +19,7 @@ const Hero = () => {
     <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center items-center">
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-90">Online business services from&nbsp;
-            <Link href="https://projects-mastery.vercel.app" target="_blank">
             <span className="text-purple">Projects Mastery</span>
-            </Link> 
             </h2>
             <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"

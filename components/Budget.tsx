@@ -34,12 +34,12 @@ const Budget = () => {
         <div className="sm:mt-10 mt-10 md:mt-0 lg:mt-0">
           <span className="text-xl font-bold leading-[1.6] text-purple my-4">Custom Website:</span>
           <p className="text-white-200 max-w-xl mx-auto text-sm leading-relaxed mb-10 md:mb-0 lg:mb-0"> 
-            Don't see a perfect fit? We can create
+            Don&apos;t see a perfect fit? We can create
             a custom website tailored to your specific requirements and budget.
             We also offer a variety of additional services
             to enhance your online presence (more details below).
             Fill out our quick contact form below to tell us about your project and
-            preferred budget. We'll get back to you within 24 hours with a
+            preferred budget. We&apos;ll get back to you within 24 hours with a
             personalized quote or discuss your custom website needs further.
           </p>
         <Link href="/">
