@@ -19,13 +19,6 @@ export function AboutHero() {
            vision into digital reality. With expertise, innovation, and passion,
             we deliver exceptional digital experiences that drive success.
           </p>
-          <Link href="#about" className="cursor-pointer">
-              <MagicButton
-                title="Get to know us more!"
-                icon={<FaLocationArrow />}
-                position={'right'}
-               />
-            </Link> 
       </div>
       <BackgroundBeams />
     </div>
