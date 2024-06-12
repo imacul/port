@@ -6,7 +6,7 @@ const AdditionalServices = () => {
     return(
       <section className="py-20 w-full">
       <h2 className="heading my-4">Enhance Your <span className="text-purple">Online Presence</span> with Our Ongoing Services</h2>
-      <p className="relative text-sm md:text-lg max-w-4xl mx-auto text-white font-normal">
+      <p className="relative text-sm md:text-lg max-w-4xl text-center mx-auto text-white font-normal">
         Take your website to the next level with our ongoing services, designed to
         help you stay ahead of the competition and keep your website fresh and
         secure.

@@ -5,6 +5,7 @@ import Benefits from "@/components/Benefits";
 import Approach from "@/components/Approach";
 import Packages from "@/components/Packages";
 import AdditionalServices from "../../components/AdditionalServices";
+import Budget from "@/components/Budget";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Benefits />
         <Clients />
+        <Budget />
         <Packages />
         <AdditionalServices />
         <Approach />

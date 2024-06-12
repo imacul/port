@@ -28,7 +28,7 @@ const Hero = () => {
             words="Transform Your Business with Cutting-Edge Web Solutions"
              />
              <p className="text-center text-white-200 my-4 text-sm">At Projects Mastery Connect, we specialize in delivering top-notch web solutions. Whether you&apos;re looking to revamp your existing site or build a new one from scratch, we provide the tools and expertise to elevate your online presence.</p>
-             <Link href="/">
+             <Link href="#budget">
               <MagicButton
                 title="Get your website Now!"
                 icon={<FaLocationArrow />}

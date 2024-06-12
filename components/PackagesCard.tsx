@@ -22,7 +22,7 @@ export function PackagesCard({ title, description, price, benefits, cta }: Packa
   return (
     <div>
       <BackgroundGradient className="rounded-md p-4 sm:p-10 bg-black-100">
-        <h3 className="text-center text-sm md:text-lg text-white">
+        <h3 className="text-xl font-bold leading-[1.6] text-white">
           {title}
         </h3>
 

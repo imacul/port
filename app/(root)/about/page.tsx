@@ -1,6 +1,6 @@
 import {AboutHero} from '@/components/AboutHero';
 import Grid from '@/components/Grid';
-import RecentProjects from '@/components/RecentProjects';
+// import RecentProjects from '@/components/RecentProjects';
 import React from 'react'
 
 const page = () => {
@@ -8,7 +8,7 @@ const page = () => {
     <main>
         <AboutHero />
         <Grid />
-        <RecentProjects />
+        {/* <RecentProjects /> */}
     </main>
   )
 }

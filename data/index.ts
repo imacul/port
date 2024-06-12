@@ -1,3 +1,11 @@
+interface Testimonials {
+  quote: string;
+  name: string;
+  title: string;
+  img: string;
+}
+
+
 
 export const navItems = [
   { name: "Home", link: "/" },
@@ -103,38 +111,43 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const testimonials: Testimonials[] = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+  quote:
+  "Thier expertise in web development is exceptional. They delivered our project on time, and the result exceeded our expectations. Their dedication to quality and customer satisfaction is impressive.",
+  name: "Emily Chen",
+  title: "Marketing Manager",
+  img: "/prof1.svg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+  quote:
+  "Working with Projects Mastery Connect was a pleasure. They listened to our needs and created a website that perfectly represents our brand. Their attention to detail and creative approach are outstanding.",
+  name: "David Lee",
+  title: "CEO",
+  img: "/prof2.svg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+  quote:
+  "Projects Mastery Connect's passion for web development shines through in their work. They're a true professional team, and their enthusiasm is contagious. We couldn't be happier with our new website!",
+  name: "Sophia Patel",
+  title: "CEO",
+  img: "/prof3.svg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+  quote:
+  "I love thier expertise in website design and development is top-notch. They delivered a high-quality website that has boosted our online presence. Their communication skills and project management are excellent.",
+  name: "Ryan Brown",
+  title: "Operations Manager",
+  img: "/prof4.svg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+  quote:
+  "Projects Mastery Connect's creative approach and technical skills have resulted in a website that exceeds our expectations. Their dedication to customer satisfaction is impressive, and we highly recommend their services.",
+  name: "Julia Kim",
+  title: "Creative Director",
+  img: "/prof5.svg",
   },
-];
+  ];
 
 export const companies = [
   {
@@ -172,29 +185,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Website Design and Development",
+    desc: "We offer customized website design that is mobile-friendly and responsive, developed with the latest technologies to provide a modern and user-friendly website that meets your business needs.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Content Creation",
+    desc: "Our content creation services include high-quality writing that is optimized for search engines, engaging and informative, and tailored to resonate with your target audience.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Website Maintenance",
+    desc: "We provide ongoing website maintenance, including regular updates and security checks, priority support and troubleshooting, and monthly backups and storage to ensure your website remains secure and up-to-date.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Additional Features",
+    desc: "We offer tailored website features, including a contact form and social media integration, a blog section and news feed, and customized design elements to enhance your website&apos;s functionality and user experience.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

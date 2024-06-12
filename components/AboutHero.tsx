@@ -14,10 +14,10 @@ export function AboutHero() {
         <h1 className="relative z-10 text-[40px] md:text-5xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
           Welcome to Projects Mastery Connect.
         </h1>
-        <p className="text-white-200 max-w-lg mx-auto my-4 text-sm text-center relative z-10">We&apos;re a cutting-edge software development and
+        <p className="text-white-200 max-w-lg mx-auto my-4 text-sm text-center relative z-10">We&apos;re a cutting-edge start-up software development and
            website development company dedicated to transforming your business
            vision into digital reality. With expertise, innovation, and passion,
-            we deliver exceptional digital  experiences that drive success.
+            we deliver exceptional digital experiences that drive success.
           </p>
           <Link href="#about" className="cursor-pointer">
               <MagicButton
