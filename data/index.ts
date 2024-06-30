@@ -207,7 +207,7 @@ export const workExperience = [
   {
     id: 4,
     title: "Additional Features",
-    desc: "We offer tailored website features, including a contact form and social media integration, a blog section and news feed, and customized design elements to enhance your website&apos;s functionality and user experience.",
+    desc: "We offer tailored website features, including a contact form and social media integration, a blog section and news feed, with any features you want us to add to your website or software and customized design elements to enhance your website's functionality and user experience.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

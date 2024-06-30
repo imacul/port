@@ -1,7 +1,7 @@
 import React from "react";
 
 import { workExperience } from "@/data";
-import { Button } from "./ui/MovingBorders";
+import { Box } from "./ui/MovingBorders";
 import Image from "next/image";
 
 const Benefits = () => {
@@ -13,7 +13,7 @@ const Benefits = () => {
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
-          <Button
+          <Box
             key={card.id}
             //   random duration will be fun , I think , may be not
             duration={Math.floor(Math.random() * 10000) + 10000}
@@ -33,7 +33,7 @@ const Benefits = () => {
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <Image
                 src={card.thumbnail}
-                alt={card.thumbnail}
+                alt="services icon"
                 width="100"
                 height="100"
                 className="lg:w-32 md:w-20 w-16"
@@ -47,7 +47,7 @@ const Benefits = () => {
                 </p>
               </div>
             </div>
-          </Button>
+          </Box>
         ))}
       </div>
     </section>
