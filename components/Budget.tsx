@@ -12,9 +12,9 @@ const Budget = () => {
           offer a range of solutions to help you achieve your online goals.
         </p>
 
-      <div className="flex flex-wrap items-center justify-center mt-20">
+      <div className="flex flex-wrap items-center gap-x-2.5 justify-center mt-20">
         <div>
-          <span className="text-xl font-bold leading-[1.6] text-purple my-4">Pre-defined Packages:</span>
+          <h3 className="text-xl font-bold leading-[1.6] text-purple my-4">Pre-defined Packages:</h3>
           <p className="text-white-200 max-w-xl mx-auto text-sm leading-relaxed mb-10 md:mb-0 lg:mb-0">
             We offer a range of pre-defined website packages to suit
             various needs, along with the option to create a custom website
@@ -31,8 +31,8 @@ const Budget = () => {
             </Link> 
         </div>
 
-        <div className="sm:mt-10 mt-10 md:mt-12 lg:mt-12">
-          <span className="text-xl font-bold leading-[1.6] text-purple my-4">Custom Website:</span>
+        <div className="mt-10 md:mt-12 lg:mt-0">
+          <h3 className="text-xl font-bold leading-[1.6] text-purple my-4">Custom Website:</h3>
           <p className="text-white-200 max-w-xl mx-auto text-sm leading-relaxed mb-10 md:mb-0 lg:mb-0"> 
             Don&apos;t see a perfect fit? We can create
             a custom website tailored to your specific requirements and budget.
@@ -40,7 +40,7 @@ const Budget = () => {
             to enhance your online presence (more details below).
             Feel free to contact us on whatsapp rigth now to tell us about your specific requirements and budget.
           </p>
-        <Link href="/">
+        <Link href="https://wa.me/2347076151463" target="_blank">
             <MagicButton
                 title="Contact Us Now!"
                 icon={<FaLocationArrow />}

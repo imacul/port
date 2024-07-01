@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import { BackgroundGradient } from "./ui/background-gradient";
 import { IconAppWindow } from "@tabler/icons-react";
@@ -16,9 +17,10 @@ interface PackageProps {
   price: string;
   benefits: string[];
   cta: string;
+  href: string;
 }
 
-export function PackagesCard({ title, description, price, benefits, cta }: PackageProps) {
+export function PackagesCard({ title, description, price, benefits, cta, href, }: PackageProps) {
   return (
     <div>
       <BackgroundGradient className="rounded-md p-4 sm:p-10 bg-black-100">
@@ -38,7 +40,7 @@ export function PackagesCard({ title, description, price, benefits, cta }: Packa
           </li>
           ))}
         </ul>
-        <Link href="/">
+        <Link href={href} target="_blank">
         <MagicButton
           title={cta}
           icon={<FaLocationArrow />}

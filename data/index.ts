@@ -244,6 +244,7 @@ export const packages = [
        'Social Media Integration (connect with your customers)',
     ],
     cta: 'Build My Website Now!', // Create a sense of urgency
+    href: 'https://wa.me/2347076151463',
   },  
   {
     title: 'Stand Out Online - Advanced Website & Marketing',
@@ -259,6 +260,7 @@ export const packages = [
       'Social Media Integration (connect with your audience)',
     ],
     cta: 'Attract More Customers', // Extended CTA with clear benefit
+    href: 'https://wa.me/2347076151463',
   },
   
   {
@@ -275,6 +277,7 @@ export const packages = [
       'Social Media Integration (connect and engage with your audience)',
     ],
     cta: 'Build a Powerful Website', // Extended CTA with clear benefit
+    href: 'https://wa.me/2347076151463',
   },  
 ];
 
@@ -284,7 +287,7 @@ export const Services = [
     title: 'Craft Compelling Content',
     description:
       'Get high-quality content creation services for your website, including blog posts, product descriptions, and more.',
-    price: '$500 - $2,000',
+    price: '$250 - $1,500',
     benefits: [
       'High-quality content creation',
       'Engaging writing style',
@@ -292,6 +295,7 @@ export const Services = [
       'Estimated timeframe (1-3 weeks)',
     ],
     cta: 'Write My Content',
+    href: 'https://wa.me/2347076151463',
   },
   // Security Services
   {
@@ -306,5 +310,6 @@ export const Services = [
       'Ongoing support',
     ],
     cta: 'Maintain My Website',
+    href: 'https://wa.me/2347076151463',
   },
 ];
