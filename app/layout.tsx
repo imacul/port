@@ -7,7 +7,20 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Projects Mastery Connect",
-  description: "Projects Mastery Connect: Your gateway to expert online business consultations and web development services. Connect with us via WhatsApp or Email for personalized project discussions and professional guidance."
+  description: "Projects Mastery Connect: Your gateway to expert online business consultations with software and website development services. Connect with us via WhatsApp or Email for personalized project discussions and professional guidance.",
+  keywords: "software development, website development, mobile app development, web design, digital solutions, Ready-made websites",
+  openGraph: {
+    title: "Projects Mastery Connect",
+    description: "Projects Mastery Connect: Your gateway to expert online business consultations with software and website development services. Connect with us via WhatsApp or Email for personalized project discussions and professional guidance.",
+    images: "/her_bg",
+    url: "projectsmasteryconnect.vercel.app"
+  },
+  twitter: {
+    title: "Projects Mastery Connect",
+    description: "Projects Mastery Connect: Your gateway to expert online business consultations with software and website development services. Connect with us via WhatsApp or Email for personalized project discussions and professional guidance.",
+    images: "/hero_bg",
+    card: "summary_large_image"
+  },
 };
 
 

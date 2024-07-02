@@ -217,14 +217,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    href: "https://github.com/ProjectsMastery"
   },
   {
     id: 2,
     img: "/twit.svg",
+    href: "https://x.com/masterypro2317"
   },
   {
     id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/emmanuel-oshakpemeh-56541a2a0"
   },
 ];
 
