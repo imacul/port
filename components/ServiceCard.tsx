@@ -36,7 +36,7 @@ export function ServicesCard({ title, description, price, benefits, cta, href }:
         </li>
           ))}
         </ul>
-        <Link href={href}>
+        <Link href={href} target="_blank">
         <MagicButton
           title={cta}
           icon={<FaLocationArrow />}
