@@ -13,9 +13,10 @@ interface ServicesProps {
   price: string;
   benefits: string[];
   cta: string;
+  href: string;
 }
 
-export function ServicesCard({ title, description, price, benefits, cta }: ServicesProps) {
+export function ServicesCard({ title, description, price, benefits, cta, href }: ServicesProps) {
   return (
     <div>
       <BackgroundGradient className="rounded-md p-4 sm:p-10 bg-black-100">
@@ -35,7 +36,7 @@ export function ServicesCard({ title, description, price, benefits, cta }: Servi
         </li>
           ))}
         </ul>
-        <Link href="/">
+        <Link href={href}>
         <MagicButton
           title={cta}
           icon={<FaLocationArrow />}
