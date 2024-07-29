@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Software development agency website, owned by [Projects Mastery](https://projectsmasteryconnect.vercel.app/). It is named
+ [`Projects Mastery Connect`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Who are we?
+We're a cutting-edge start-up software development and website development company dedicated to transforming your business vision into digital reality. With expertise, innovation, and passion, we deliver exceptional digital experiences that drive success.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## what we do?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+At Projects Mastery Connect, we specialize in delivering top-notch web solutions. Whether you're looking to revamp your existing site or build a new one from scratch, we provide the tools and expertise to elevate your online presence.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## what we offer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Website Design and Development  We offer customized website design that is mobile-friendly and responsive, developed with the latest technologies to provide a modern and user-friendly website that meets your business needs.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Content Creation 
+Our content creation services include high-quality writing that is optimized for search engines, engaging and informative, and tailored to resonate with your target audience.
 
-## Deploy on Vercel
+- Website Maintenance 
+We provide ongoing website maintenance, including regular updates and security checks, priority support and troubleshooting, and monthly backups and storage to ensure your website remains secure and up-to-date.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Additional Features 
+We offer tailored website features, including a contact form and social media integration, a blog section and news feed, with any features you want us to add to your website or software and customized design elements to enhance your website's functionality and user experience.
