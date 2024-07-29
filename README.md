@@ -1,5 +1,5 @@
 This is a Software development agency website, owned by [Projects Mastery](https://projectsmasteryconnect.vercel.app/). It is named
- [`Projects Mastery Connect`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ [`Projects Mastery Connect`](https://projectsmasteryconnect.vercel.app/).
 
 ## Who are we?
 We're a cutting-edge start-up software development and website development company dedicated to transforming your business vision into digital reality. With expertise, innovation, and passion, we deliver exceptional digital experiences that drive success.
