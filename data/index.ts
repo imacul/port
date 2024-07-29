@@ -113,41 +113,41 @@ export const projects = [
 
 export const testimonials: Testimonials[] = [
   {
-  quote:
-  "Thier expertise in web development is exceptional. They delivered our project on time, and the result exceeded our expectations. Their dedication to quality and customer satisfaction is impressive.",
-  name: "Emily Chen",
-  title: "Marketing Manager",
-  img: "/prof1.svg",
+    quote:
+      "Thier expertise in web development is exceptional. They delivered our project on time, and the result exceeded our expectations. Their dedication to quality and customer satisfaction is impressive.",
+    name: "Emily Chen",
+    title: "Marketing Manager",
+    img: "/prof1.svg",
   },
   {
-  quote:
-  "Working with Projects Mastery Connect was a pleasure. They listened to our needs and created a website that perfectly represents our brand. Their attention to detail and creative approach are outstanding.",
-  name: "David Lee",
-  title: "CEO",
-  img: "/prof2.svg",
+    quote:
+      "Working with Projects Mastery Connect was a pleasure. They listened to our needs and created a website that perfectly represents our brand. Their attention to detail and creative approach are outstanding.",
+    name: "David Lee",
+    title: "CEO",
+    img: "/prof2.svg",
   },
   {
-  quote:
-  "Projects Mastery Connect's passion for web development shines through in their work. They're a true professional team, and their enthusiasm is contagious. We couldn't be happier with our new website!",
-  name: "Sophia Patel",
-  title: "CEO",
-  img: "/prof3.svg",
+    quote:
+      "Projects Mastery Connect's passion for web development shines through in their work. They're a true professional team, and their enthusiasm is contagious. We couldn't be happier with our new website!",
+    name: "Sophia Patel",
+    title: "CEO",
+    img: "/prof3.svg",
   },
   {
-  quote:
-  "I love thier expertise in website design and development is top-notch. They delivered a high-quality website that has boosted our online presence. Their communication skills and project management are excellent.",
-  name: "Ryan Brown",
-  title: "Operations Manager",
-  img: "/prof4.svg",
+    quote:
+      "I love thier expertise in website design and development is top-notch. They delivered a high-quality website that has boosted our online presence. Their communication skills and project management are excellent.",
+    name: "Ryan Brown",
+    title: "Operations Manager",
+    img: "/prof4.svg",
   },
   {
-  quote:
-  "Projects Mastery Connect's creative approach and technical skills have resulted in a website that exceeds our expectations. Their dedication to customer satisfaction is impressive, and we highly recommend their services.",
-  name: "Julia Kim",
-  title: "Creative Director",
-  img: "/prof5.svg",
+    quote:
+      "Projects Mastery Connect's creative approach and technical skills have resulted in a website that exceeds our expectations. Their dedication to customer satisfaction is impressive, and we highly recommend their services.",
+    name: "Julia Kim",
+    title: "Creative Director",
+    img: "/prof5.svg",
   },
-  ];
+];
 
 export const companies = [
   {
@@ -222,12 +222,12 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-    href: "https://x.com/masterypro2317"
+    href: "https://x.com/ProjMastery?t=keOA-kp-uxdS8zSrUqmYqQ&s=09"
   },
   {
     id: 3,
     img: "/link.svg",
-    href: "https://www.linkedin.com/in/emmanuel-oshakpemeh-56541a2a0"
+    href: "https://www.linkedin.com/company/projects-mastery/"
   },
 ];
 
@@ -239,16 +239,16 @@ export const packages = [
       'Get started online quickly and easily with a professional 3-5 page website. This package includes basic SEO optimization, mobile-responsive design, 2-3 revisions, and social media integration to connect with your audience.',
     price: '$1,500 - $2,000', // Reduced price range
     benefits: [
-       '3-5 page website (perfect for starting businesses)', // Highlight appropriate website size
-       'Basic SEO optimization (improve search visibility)',
-       'Mobile-responsive design (great for all devices)',
-       '2-3 revisions (ensure your satisfaction)',
-       'Fast turnaround time (get online in 2-3 weeks)',
-       'Social Media Integration (connect with your customers)',
+      '3-5 page website (perfect for starting businesses)', // Highlight appropriate website size
+      'Basic SEO optimization (improve search visibility)',
+      'Mobile-responsive design (great for all devices)',
+      '2-3 revisions (ensure your satisfaction)',
+      'Fast turnaround time (get online in 2-3 weeks)',
+      'Social Media Integration (connect with your customers)',
     ],
     cta: 'Build My Website Now!', // Create a sense of urgency
     href: 'https://wa.me/2347076151463',
-  },  
+  },
   {
     title: 'Stand Out Online - Advanced Website & Marketing',
     description:
@@ -265,7 +265,7 @@ export const packages = [
     cta: 'Attract More Customers', // Extended CTA with clear benefit
     href: 'https://wa.me/2347076151463',
   },
-  
+
   {
     title: 'Dominate Your Market - Enterprise-Level Website',
     description:
@@ -281,12 +281,12 @@ export const packages = [
     ],
     cta: 'Build a Powerful Website', // Extended CTA with clear benefit
     href: 'https://wa.me/2347076151463',
-  },  
+  },
 ];
 
 export const Services = [
-   // Content Services
-   {
+  // Content Services
+  {
     title: 'Craft Compelling Content',
     description:
       'Get high-quality content creation services for your website, including blog posts, product descriptions, and more.',
