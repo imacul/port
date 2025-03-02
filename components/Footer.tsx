@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright &copy; 2024 Projects Mastery Connect.
+          Copyright &copy; 2023 - 2025 Projects Mastery Connect.
         </p>
 
         <div className="flex items-center md:gap-3 mt-5 gap-6">
